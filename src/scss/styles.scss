@@ -1,3 +1,4 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
+// Import your scss bits here
+
+@import "global";
+@import "components/nav";

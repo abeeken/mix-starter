@@ -1,2 +1,4 @@
 // src/js/scripts.js
-console.log('Hello world!');
+
+// Use require to include all your JS files to compile
+require('./hello-world.js');

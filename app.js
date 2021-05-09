@@ -11,4 +11,8 @@ site.get('/', function(req, res){
     res.render('index');
 });
 
+site.get('/about', function(req, res){
+    res.render('about');
+});
+
 site.listen(port, () => console.log(`App listening on port ${port}`))

@@ -1,0 +1,14 @@
+nav ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    li a{
+        display: block;
+        padding: 5px 10px;
+        color: black;
+        text-decoration: none;
+        &:hover{
+            background: #ccc;
+        }
+    }
+}
